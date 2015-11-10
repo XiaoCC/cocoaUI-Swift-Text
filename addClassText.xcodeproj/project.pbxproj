@@ -12,6 +12,12 @@
 		016CDD251BF23307000EC171 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 016CDD231BF23307000EC171 /* Main.storyboard */; };
 		016CDD271BF23307000EC171 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 016CDD261BF23307000EC171 /* Assets.xcassets */; };
 		016CDD2A1BF23307000EC171 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 016CDD281BF23307000EC171 /* LaunchScreen.storyboard */; };
+		016CDD381BF23345000EC171 /* off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 016CDD361BF23345000EC171 /* off@2x.png */; };
+		016CDD391BF23345000EC171 /* on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 016CDD371BF23345000EC171 /* on@2x.png */; };
+		016CDD531BF2336C000EC171 /* libIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 016CDD521BF2336C000EC171 /* libIKit.a */; };
+		016CDD551BF233B4000EC171 /* addClassText.xml in Resources */ = {isa = PBXBuildFile; fileRef = 016CDD541BF233B4000EC171 /* addClassText.xml */; };
+		016CDD581BF2340B000EC171 /* wxzf@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 016CDD561BF2340B000EC171 /* wxzf@2x.png */; };
+		016CDD591BF2340B000EC171 /* zfb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 016CDD571BF2340B000EC171 /* zfb@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,33 @@
 		016CDD261BF23307000EC171 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		016CDD291BF23307000EC171 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		016CDD2B1BF23307000EC171 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		016CDD321BF2332E000EC171 /* addClassText-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "addClassText-Bridging-Header.h"; sourceTree = "<group>"; };
+		016CDD361BF23345000EC171 /* off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "off@2x.png"; sourceTree = "<group>"; };
+		016CDD371BF23345000EC171 /* on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "on@2x.png"; sourceTree = "<group>"; };
+		016CDD3D1BF2336C000EC171 /* IButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IButton.h; sourceTree = "<group>"; };
+		016CDD3E1BF2336C000EC171 /* IImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IImage.h; sourceTree = "<group>"; };
+		016CDD3F1BF2336C000EC171 /* IInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IInput.h; sourceTree = "<group>"; };
+		016CDD401BF2336C000EC171 /* IKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKit.h; sourceTree = "<group>"; };
+		016CDD411BF2336C000EC171 /* IKitUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKitUtil.h; sourceTree = "<group>"; };
+		016CDD421BF2336C000EC171 /* ILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILabel.h; sourceTree = "<group>"; };
+		016CDD431BF2336C000EC171 /* IPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPopover.h; sourceTree = "<group>"; };
+		016CDD441BF2336C000EC171 /* IPullRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPullRefresh.h; sourceTree = "<group>"; };
+		016CDD451BF2336C000EC171 /* IRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRefreshControl.h; sourceTree = "<group>"; };
+		016CDD461BF2336C000EC171 /* IStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IStyle.h; sourceTree = "<group>"; };
+		016CDD471BF2336C000EC171 /* IStyleUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IStyleUtil.h; sourceTree = "<group>"; };
+		016CDD481BF2336C000EC171 /* ISwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISwitch.h; sourceTree = "<group>"; };
+		016CDD491BF2336C000EC171 /* ITable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITable.h; sourceTree = "<group>"; };
+		016CDD4A1BF2336C000EC171 /* ITableRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITableRow.h; sourceTree = "<group>"; };
+		016CDD4B1BF2336C000EC171 /* IView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IView.h; sourceTree = "<group>"; };
+		016CDD4D1BF2336C000EC171 /* Http.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Http.h; sourceTree = "<group>"; };
+		016CDD4E1BF2336C000EC171 /* IDict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDict.h; sourceTree = "<group>"; };
+		016CDD4F1BF2336C000EC171 /* IObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IObj.h; sourceTree = "<group>"; };
+		016CDD501BF2336C000EC171 /* RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSA.h; sourceTree = "<group>"; };
+		016CDD511BF2336C000EC171 /* Text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Text.h; sourceTree = "<group>"; };
+		016CDD521BF2336C000EC171 /* libIKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libIKit.a; sourceTree = "<group>"; };
+		016CDD541BF233B4000EC171 /* addClassText.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = addClassText.xml; sourceTree = "<group>"; };
+		016CDD561BF2340B000EC171 /* wxzf@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wxzf@2x.png"; sourceTree = "<group>"; };
+		016CDD571BF2340B000EC171 /* zfb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zfb@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				016CDD531BF2336C000EC171 /* libIKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,14 +88,81 @@
 		016CDD1E1BF23307000EC171 /* addClassText */ = {
 			isa = PBXGroup;
 			children = (
+				016CDD311BF23316000EC171 /* cocoaUI */,
 				016CDD1F1BF23307000EC171 /* AppDelegate.swift */,
 				016CDD211BF23307000EC171 /* ViewController.swift */,
+				016CDD541BF233B4000EC171 /* addClassText.xml */,
+				016CDD361BF23345000EC171 /* off@2x.png */,
+				016CDD371BF23345000EC171 /* on@2x.png */,
+				016CDD561BF2340B000EC171 /* wxzf@2x.png */,
+				016CDD571BF2340B000EC171 /* zfb@2x.png */,
 				016CDD231BF23307000EC171 /* Main.storyboard */,
 				016CDD261BF23307000EC171 /* Assets.xcassets */,
 				016CDD281BF23307000EC171 /* LaunchScreen.storyboard */,
 				016CDD2B1BF23307000EC171 /* Info.plist */,
+				016CDD321BF2332E000EC171 /* addClassText-Bridging-Header.h */,
 			);
 			path = addClassText;
+			sourceTree = "<group>";
+		};
+		016CDD311BF23316000EC171 /* cocoaUI */ = {
+			isa = PBXGroup;
+			children = (
+				016CDD3A1BF2336C000EC171 /* IKit */,
+			);
+			name = cocoaUI;
+			sourceTree = "<group>";
+		};
+		016CDD3A1BF2336C000EC171 /* IKit */ = {
+			isa = PBXGroup;
+			children = (
+				016CDD3B1BF2336C000EC171 /* include */,
+				016CDD521BF2336C000EC171 /* libIKit.a */,
+			);
+			path = IKit;
+			sourceTree = "<group>";
+		};
+		016CDD3B1BF2336C000EC171 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				016CDD3C1BF2336C000EC171 /* IKit */,
+				016CDD4C1BF2336C000EC171 /* IObj */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		016CDD3C1BF2336C000EC171 /* IKit */ = {
+			isa = PBXGroup;
+			children = (
+				016CDD3D1BF2336C000EC171 /* IButton.h */,
+				016CDD3E1BF2336C000EC171 /* IImage.h */,
+				016CDD3F1BF2336C000EC171 /* IInput.h */,
+				016CDD401BF2336C000EC171 /* IKit.h */,
+				016CDD411BF2336C000EC171 /* IKitUtil.h */,
+				016CDD421BF2336C000EC171 /* ILabel.h */,
+				016CDD431BF2336C000EC171 /* IPopover.h */,
+				016CDD441BF2336C000EC171 /* IPullRefresh.h */,
+				016CDD451BF2336C000EC171 /* IRefreshControl.h */,
+				016CDD461BF2336C000EC171 /* IStyle.h */,
+				016CDD471BF2336C000EC171 /* IStyleUtil.h */,
+				016CDD481BF2336C000EC171 /* ISwitch.h */,
+				016CDD491BF2336C000EC171 /* ITable.h */,
+				016CDD4A1BF2336C000EC171 /* ITableRow.h */,
+				016CDD4B1BF2336C000EC171 /* IView.h */,
+			);
+			path = IKit;
+			sourceTree = "<group>";
+		};
+		016CDD4C1BF2336C000EC171 /* IObj */ = {
+			isa = PBXGroup;
+			children = (
+				016CDD4D1BF2336C000EC171 /* Http.h */,
+				016CDD4E1BF2336C000EC171 /* IDict.h */,
+				016CDD4F1BF2336C000EC171 /* IObj.h */,
+				016CDD501BF2336C000EC171 /* RSA.h */,
+				016CDD511BF2336C000EC171 /* Text.h */,
+			);
+			path = IObj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +224,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				016CDD2A1BF23307000EC171 /* LaunchScreen.storyboard in Resources */,
+				016CDD591BF2340B000EC171 /* zfb@2x.png in Resources */,
 				016CDD271BF23307000EC171 /* Assets.xcassets in Resources */,
+				016CDD391BF23345000EC171 /* on@2x.png in Resources */,
+				016CDD551BF233B4000EC171 /* addClassText.xml in Resources */,
+				016CDD381BF23345000EC171 /* off@2x.png in Resources */,
+				016CDD581BF2340B000EC171 /* wxzf@2x.png in Resources */,
 				016CDD251BF23307000EC171 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,10 +355,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = addClassText/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/addClassText/IKit",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sanfu.com.addClassText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "addClassText/addClassText-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -260,10 +373,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = addClassText/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/addClassText/IKit",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sanfu.com.addClassText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "addClassText/addClassText-Bridging-Header.h";
 			};
 			name = Release;
 		};

@@ -1,0 +1,42 @@
+<div id="boxview" style="height:auto;background:#efefef;">
+    <style>
+        .c0{background: #00adff;color: #fff;}
+        .c1{background: #fc0082;color: #fff;}
+        .c2{background: #ff8d00;color: #fff;}
+        .c3{background: #b1e11f;color: #fff;}
+        .fl{float: left;}
+        .fr{float: right;}
+        .on{background:url(on@2x.png) no-repeat;}
+        .off{background:url(off@2x.png) no-repeat;}
+    </style>
+    <div id="yhq" style="width:100%;border-top:1 solid #f9f9f9;">
+        <div style="padding:15;background:#fff;margin-top:20;">
+            <div id="ddh" style="width:100%;">订单号：123456</div>
+            <div id="ddjg" style="width:100%;margin-top:5;">价格：￥12</div>
+        </div>
+        <div style="margin-top:5;background:#fff;">
+            <div style="padding:15;border-bottom:1 solid #f9f9f9;width:100%;"><span>应付金额：</span><span id="ddjg2" style="color:#e5337a;
+                ">12</span></div>
+            <div id="zfb" style="padding:15 20;border-bottom:1 solid #f9f9f9;width:100%;">
+                <img src="zfb@2x.png" style="width:10%;float:left;"/>
+                <div style="float:left;padding:0 10;">
+                    <div style="clear:both;">支付宝</div>
+                    <div style="color:#ccc;font-size:11;">推荐有支付宝账号的用户使用</div>
+                </div>
+                <div id="zfb1" style="float:right;width:25;height:25;"></div>
+            </div>
+            
+            <div id="wxzf" style="padding:15 20;border-bottom:1 solid #f9f9f9;width:100%;">
+                <img src="wxzf@2x.png" style="width:10%;float:left;"/>
+                <div style="float:left;padding:0 10;">
+                    <div style="clear:both;">微信支付</div>
+                    <div style="color:#ccc;font-size:11;">微信快捷支付</div>
+                </div>
+                <div id="wx1" style="float:right;width:25;height:25;"></div>
+            </div>
+        </div>
+        
+        <button id="qdzf" style="color:#fff;background:#e5337a;width:90%;margin-top:10;padding:12;border-radius:5;float:center;">确认支付</button>
+        
+    </div>
+</div>
