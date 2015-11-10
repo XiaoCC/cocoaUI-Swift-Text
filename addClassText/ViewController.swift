@@ -32,22 +32,22 @@ class ViewController: ITable {
         zfb.addEvent(IEventClick, handler: { (_, _) -> Void in
             //支付宝
             //style.style.set 测试
-//            zfb1.style.set("background:url(on@2x.png) no-repeat;")
-//            wxzf1.style.set("background:url(off@2x.png) no-repeat;")
+            zfb1.style.set("background:url(on@2x.png) no-repeat;")
+            wxzf1.style.set("background:url(off@2x.png) no-repeat;")
             
             //style.addClass测试
-            zfb1.style.addClass("on")
-            wxzf1.style.addClass("off")
+//            zfb1.style.addClass("on")
+//            wxzf1.style.addClass("off")
         })
         wxzf.addEvent(IEventClick, handler: { (_, _) -> Void in
             //微信
             //style.set 测试
-//            zfb1.style.set("background:url(off@2x.png) no-repeat;")
-//            wxzf1.style.set("background:url(on@2x.png) no-repeat;")
+            zfb1.style.set("background:url(off@2x.png) no-repeat;")
+            wxzf1.style.set("background:url(on@2x.png) no-repeat;")
             
             //style.addClass测试
-            zfb1.style.addClass("off")
-            wxzf1.style.addClass("on")
+//            zfb1.style.addClass("off")
+//            wxzf1.style.addClass("on")
         })
         qdzf.addEvent(IEventClick, handler: { (_, _) -> Void in
             //确认支付
